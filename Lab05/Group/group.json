@@ -1,0 +1,32 @@
+{
+  "type": "SELECT",
+  "deviceId": "of:0000000000000001",
+  "appCookie": "0x1234abcd",
+  "groupId": 1,
+  "buckets": [
+    {
+      "type": "SELECT",
+      "treatment": {
+	"instructions": [
+	  {
+	    "type": "OUTPUT",
+	    "port": "3"
+	  }
+	]
+      },
+      "weight" : 1
+    },
+    {
+      "type": "SELECT",
+      "treatment": {
+	"instructions": [
+	  {
+	    "type": "OUTPUT",
+	    "port": "2"
+	  }
+	]
+      },
+      "weight" : 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1561315261448
+Build-Jdk: 1.8.0_201
+Built-By: charles
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: serve-path
+Bundle-SymbolicName: nctu.st.serve-path
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: nctu.st.servepath;uses:="org.onosproject.core,org.onospr
+ oject.net.config,org.onosproject.net.device,org.onosproject.net.edge,or
+ g.onosproject.net.flowobjective,org.onosproject.net.host,org.onosprojec
+ t.net.packet,org.onosproject.net.topology";version="1.0.0"
+Import-Package: org.onlab.graph;version="[1.15,2)",org.onlab.packet;vers
+ ion="[1.15,2)",org.onosproject.core;version="[1.15,2)",org.onosproject.
+ net;version="[1.15,2)",org.onosproject.net.config;version="[1.15,2)",or
+ g.onosproject.net.device;version="[1.15,2)",org.onosproject.net.edge;ve
+ rsion="[1.15,2)",org.onosproject.net.flow;version="[1.15,2)",org.onospr
+ oject.net.flowobjective;version="[1.15,2)",org.onosproject.net.host;ver
+ sion="[1.15,2)",org.onosproject.net.packet;version="[1.15,2)",org.onosp
+ roject.net.topology;version="[1.15,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/nctu.st.servepath.AppComponent.xml
+Tool: Bnd-3.3.0.201609221906

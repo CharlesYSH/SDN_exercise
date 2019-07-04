@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "nctu.st.unicastdhcp" : {
+      "myconfig" : {
+        "name": "Project DEMO",
+        "mac": "00:00:00:00:00:02",
+        "deviceConnectPoint": "of:0000000000000002/4"
+      }
+    }
+  }
+}
+

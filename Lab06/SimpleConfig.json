@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "EchoConfig" : {
+      "myconfig" : {
+        "name": "DHCP_server",
+        "mac": "ea:e9:78:fb:fd:04",
+        "deviceConnectPoint": "of:0000000000000003/2"
+      }
+    }
+  }
+}
+

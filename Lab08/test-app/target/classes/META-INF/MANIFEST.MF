@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1561315260551
+Build-Jdk: 1.8.0_201
+Built-By: charles
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: test-app
+Bundle-SymbolicName: nctu.st.test-app
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: nctu.st.testapp;uses:="org.onlab.packet,org.onosproject.
+ core,org.onosproject.net,org.onosproject.net.config,org.onosproject.net
+ .config.basics,org.onosproject.net.flowobjective,org.onosproject.net.gr
+ oup,org.onosproject.net.host,org.onosproject.net.packet,org.onosproject
+ .net.topology";version="1.0.0"
+Import-Package: com.fasterxml.jackson.databind;version="[2.9,3)",com.goo
+ gle.common.collect;version="[22.0,23)",org.onlab.graph;version="[1.15,2
+ )",org.onlab.packet;version="[1.15,2)",org.onosproject.core;version="[1
+ .15,2)",org.onosproject.event;version="[1.15,2)",org.onosproject.net;ve
+ rsion="[1.15,2)",org.onosproject.net.config;version="[1.15,2)",org.onos
+ project.net.config.basics;version="[1.15,2)",org.onosproject.net.flow;v
+ ersion="[1.15,2)",org.onosproject.net.flowobjective;version="[1.15,2)",
+ org.onosproject.net.group;version="[1.15,2)",org.onosproject.net.host;v
+ ersion="[1.15,2)",org.onosproject.net.packet;version="[1.15,2)",org.ono
+ sproject.net.topology;version="[1.15,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/nctu.st.testapp.AppComponent.xml
+Tool: Bnd-3.3.0.201609221906

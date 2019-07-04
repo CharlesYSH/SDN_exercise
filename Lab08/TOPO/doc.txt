@@ -1,0 +1,14 @@
+There are two files provided. `project.py` is Mininet topology file and `dhcpd.conf` is for configuration of DHCP server in Mininet. Make sure these two files should be under the same directory.
+
+Execute following command to start Mininet topology
+```
+$ sudo python project.py
+```
+
+`h2` is the DHCP server and attached at port 3 of `s2`, which is 'of:0000000000000002/3'.
+`h5` is the host with dynamic IP. Please request IP from DHCP by executing the following command.
+```
+mininet> h5 dhclient h5-eth0
+```
+
+The requested IP should be in range 10.0.2.3 to 10.0.2.25. (Normally 10.0.2.3 for the first request)
